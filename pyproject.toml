@@ -48,7 +48,7 @@ classifiers = [
 ]
 dynamic = [ "version" ]
 dependencies = [
-  "django-cms",
+  "django",
 ]
 # The test suite runs a plain Django admin and stubs `cms`, so django-cms is
 # deliberately not required to run it -- see tests/settings.py.
@@ -57,7 +57,7 @@ optional-dependencies.test = [
   "packaging",
   "soupsieve",
 ]
-urls.Homepage = "https://github.com/fsbraun/djangocms-simple-admin-style"
+urls.Homepage = "https://github.com/PeterW-LWL/djangocms-simple-admin-style"
 
 [tool.hatch]
 version.path = "djangocms_simple_admin_style/__init__.py"
