@@ -277,6 +277,9 @@ a.jstree-anchor {
             text-transform: uppercase;
         }
         padding: 3px 12px;
+        &.addlink, &.viewsitelink {
+            padding-right: 26px;
+        }
     }
 }
 
@@ -771,14 +774,7 @@ a.related-widget-wrapper-link > img {
 /* Dark mode toggles */
 .theme-toggle {
     margin-inline-start: 0.6rem;
-    svg {
-        width: 1rem;
-        margin-inline-start: 0.4rem;
-        &.theme-icon-when-light {
-            width: 1.4rem;
-            margin-inline-start: 0;
-        }
-    }
+    width: 1.4rem;
 }
 
 .theme-toggle svg.theme-icon-when-auto, .theme-toggle svg.theme-icon-when-dark, .theme-toggle svg.theme-icon-when-light {
